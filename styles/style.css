@@ -185,18 +185,6 @@ flex-grow: 1;
   background-size: cover;
 }
 
-.card__title {
-  font-weight: 700;
-  font-size: 22px;
-  text-decoration: underline;
-  text-transform: uppercase;
-}
-
-.card__text {
-  margin-top: auto;
-  font-weight: 400;
-  font-size: 20px;   
-}
 
 .card_type_film {
   background: url(../images/card-lot-01.jpg) center/cover;
@@ -231,6 +219,7 @@ flex-grow: 1;
   line-height: 120%;
   font-size: 20px;
   font-weight: 400;
+  margin-top: auto;
 }
 
 /*о чем-то*/
