@@ -90,9 +90,13 @@ margin-right: 6%;
 
 .overlay {
 height: 100%;
-background-color: rgba(0, 0, 0, 0.6);
-padding: 165px 50px 50px;
+background-color: rgba(0, 0, 0, 0.6); /**/
 }
+
+.padding-width{
+  padding: 165px 50px 50px;
+}
+
 
 
 .aligned-text_center {
@@ -210,6 +214,9 @@ padding: 12px 32px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: underline;
+  padding-top: 48px;
+  padding-right: 35px;
+  padding-left: 39px;
 }
 
 .card__text {
@@ -218,6 +225,9 @@ padding: 12px 32px;
   font-size: 20px;
   font-weight: 400;
   margin-top: auto;
+  padding-left: 39px;
+  padding-right: 35px;
+  padding-bottom: 46px;
 }
 
 /*о чем-то*/
