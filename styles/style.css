@@ -44,6 +44,7 @@ h1 {
   width: 148px;
   height: 105px;
   flex: 0 0 auto;
+  flex-shrink: 0;
 }
 
 .adress {
@@ -234,9 +235,6 @@ padding: 12px 32px;
   margin-top: 90px;
 }
 
-.retreat-film {
-  
-}
 
 /*о чем-то*/
 .about {
