@@ -90,10 +90,10 @@ margin-right: 6%;
 
 .overlay {
 height: 100%;
-background-color: rgba(0, 0, 0, 0.6); /**/
+background-color: rgba(0, 0, 0, 0.6); 
 }
 
-.padding-width{
+.padding-width {
   padding: 165px 50px 50px;
 }
 
@@ -228,6 +228,14 @@ padding: 12px 32px;
   padding-left: 39px;
   padding-right: 35px;
   padding-bottom: 46px;
+}
+
+.retreat-picture {
+  margin-top: 90px;
+}
+
+.retreat-film {
+  
 }
 
 /*о чем-то*/
