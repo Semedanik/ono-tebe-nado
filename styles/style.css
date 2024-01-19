@@ -41,8 +41,11 @@ h1 {
 }
 
 .header__logo {
-  width: 148px;
   height: 105px;
+  display: block;
+  justify-self: center;
+  align-self: center;
+  width: 140px;
   flex: 0 0 auto;
   flex-shrink: 0;
 }
@@ -233,6 +236,10 @@ padding: 12px 32px;
 
 .retreat-picture {
   margin-top: 90px;
+}
+
+.retreat-film {
+  margin-top: 238px;
 }
 
 
