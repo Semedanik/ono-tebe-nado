@@ -33,7 +33,6 @@ a {
   line-height: 24.3px;
 }
 
-
 .menu {
   display: flex;
   list-style: circle;
@@ -236,9 +235,11 @@ padding: 12px 32px;
   padding-top: 48px;
   padding-right: 35px;
   padding-left: 39px;
+  color: #fff;
 }
 
 .card__text {
+  color: #fff;
   position: relative;
   line-height: 120%;
   font-size: 20px;
