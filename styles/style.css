@@ -169,8 +169,9 @@ padding: 12px 32px;
 
 .lots__card-list {
   margin-top: 26px;
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
+ 
   position: relative;
   flex-wrap: wrap;
   gap: 25px;
@@ -197,11 +198,9 @@ padding: 12px 32px;
   position: relative;
   z-index: 1;
   display: flex;
-  flex-basis: 33%;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  color: #fff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -209,8 +208,6 @@ padding: 12px 32px;
 
 .card_type_film {
   background: url(../images/card-lot-01.jpg) center/cover;
-  background-position: left;
-  text-align: top;
 }
 
 .card_type_book {
@@ -227,6 +224,8 @@ padding: 12px 32px;
 }
 
 .card__title {
+  display: flex;
+  flex-direction: column;
   position: relative;
   font-size: 22px;
   font-weight: 700;
@@ -239,6 +238,7 @@ padding: 12px 32px;
 }
 
 .card__text {
+  display: flex;
   color: #fff;
   position: relative;
   line-height: 120%;
@@ -250,13 +250,13 @@ padding: 12px 32px;
   padding-bottom: 46px;
 }
 
-.retreat-picture {
+/*.retreat-picture {
   margin-top: 90px;
 }
 
 .retreat-film {
   margin-top: 238px;
-}
+}*/
 
 
 /*о чем-то*/
@@ -346,3 +346,4 @@ padding: 12px 32px;
   width: 48px;
   height: 48px;
 }
+
