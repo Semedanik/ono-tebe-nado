@@ -13,7 +13,7 @@ a {
   color: #000;
   text-decoration: underline;
   text-underline-offset: 4px;
-  font-family: Raleway;
+  font-family: 'Raleway', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 24.3px; /* 135% */
@@ -27,7 +27,6 @@ a {
   box-sizing: border-box;
   width: 100%;
   max-width: 1052px;
-  min-height: 105px;
   margin: 92px 24px 96px 24px;
   font-size: 18px;
   color: #000;
@@ -35,6 +34,7 @@ a {
   font-weight: 400;
   line-height: 21px;
   text-align: left;
+  gap: 36px;
 }
 
 .menu {
@@ -54,13 +54,11 @@ a {
 .header__links-list-item_no-bullit {
   list-style: none;
   text-decoration: none;
-  /* margin-left: 27px; */
 }
 
 .header__logo {
   display: flex;
   justify-content: center;
-  margin-left: 36px;
   margin-right: auto;
   width: 148px;
   height: 105px;
@@ -184,7 +182,7 @@ padding: 12px 32px;
 .lots__card-list-item {
   display: flex;
   flex: 1 0 0%;
-  height: 563px;
+  min-height: 563px;
 }
 
 
